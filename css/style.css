@@ -1,0 +1,463 @@
+nav {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    z-index: 9999;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav .logo {
+    position: absolute;
+    top: 6px;
+}
+
+nav .logo h1 {
+    font-size: 30;
+}
+nav .list {
+    position: absolute;
+    right: 150px;
+    top: 23px;
+}
+
+nav .list ul {
+    list-style: none;
+}
+nav .list ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+nav .list ul li:nth-of-type(6) {
+    position: relative;
+}
+nav .list ul li:nth-of-type(6):hover ul {
+    opacity: 1;
+    transition: 1s all;
+}
+nav .list ul li span {
+    font-size: 20px;
+    position: relative;
+    bottom: -5px;
+    color: #00000073;
+}
+nav .list ul li ul {
+    position: absolute;
+    background: white;
+    left: -6px;
+    width: 100%;
+    opacity: 0;
+}
+
+nav .list ul li ul li {
+    display: block;
+    margin: 22px -12px;
+}
+
+nav .list ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav .list ul li a:hover {
+    color: #3f51b5;
+    text-decoration: underline;
+    text-decoration-color: #2196f3;
+}
+header {
+    background-image: url(../img/hero-bg.jpg);
+    height: 500px;
+}
+header .layer {
+    background: #ffffff52;
+    height: 500px;
+}
+header h1 {
+    display: inline-block;
+    margin-top: 250;
+    font-size: 50px;
+}
+
+header h1:first-of-type {
+
+}
+header h1:last-of-type {
+    color: blue;
+}
+header p:first-of-type {
+    font-size: 25px;
+    margin-top: -30px;
+}
+header p:last-of-type {
+    display: inline-block;
+    margin-left: 36px;
+    font-size: 25px;
+}
+header .container > a {
+    text-decoration: none;
+    font-size: 22px;
+    width: 185px;
+    background: blue;
+    height: 35px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 10;
+}
+header span:first-of-type {
+    color: blue;
+    font-size: 36px;
+    position: relative;
+    top: 9px;
+}
+
+
+header p a {
+    position: relative;
+    font-weight:bold
+}
+header p a:hover {
+color: blue;
+}
+
+.row {
+    padding-top: 50px;
+    background: #fff;
+}
+.row .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col {
+    width: 19%;
+    margin: 73px 1%;
+    background: white;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.col span {
+    font-size: 50px;
+    color: blue;
+}
+.col h4 {
+    font-size: 22px;
+}
+.col p {
+    font-size: 18;
+}
+.col .layer {
+    background: blue;
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.col:hover .layer {
+    height: 100%;
+    transition: .5s all;
+    z-index: -1;
+}
+.col:hover span {
+    color: white;
+}
+.col:hover {
+    color: white;
+}
+.about {
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgba(221, 221, 221, 0.411);
+    padding-bottom: 50px;
+}
+.about span {
+    width: 79px;
+    background: #ddd;
+    display: block;
+    height: 27px;
+    border-radius: 30px;
+    padding-top: 5px;
+    font-size: 20;
+    color: blue;
+    margin: auto;
+}
+
+.about h1 {
+    display: inline-block;
+    font-size: 35px;
+}
+.about h1:last-of-type {
+    color: blue;
+}
+.about .container > p {
+    font-size: 19px;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+    color: #000000ab;
+}
+.about .sit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px
+
+}
+.sit .photo {
+    width: 40%;
+}
+.sit .photo img {
+width: 100%;
+}
+.sit .content {
+    width: 40%;
+    text-align: start;
+    padding: 0px 35px;}
+.sit .content h1 {
+    font-size: 27px;
+    text-align: start;
+    margin-top: 8px;
+    color: black;
+}
+
+.sit .content > p:first-of-type {
+    text-align: start;
+    margin-top: -10px;
+    font-size: 18px;
+}
+.sit .content .part {
+    text-align: start;
+    position: relative;
+}
+.sit .content .part span  {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: white;
+    font-size: 20px;
+    border-radius: 48px;
+    padding-top: 20px;
+    padding-left: 20px;
+    left: 4px;
+}
+.sit .content .part h5 {
+    font-size: 22px;
+    margin-left: 75px;
+}
+
+.sit .content .part p {
+    margin-left: 79px;
+    margin-top: -23px;
+}
+.sit .content > p:last-of-type {
+
+    font-size: 19px;
+    margin-top: 55px;
+
+}
+.progress {
+margin-top: 60px;
+}
+.progress .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.progress .container .skills {
+    width: 48%;
+}
+.progress .container .skills:first-of-type {
+    margin-right: 28px;}
+
+.progress .container .skills .skill {
+
+}
+.progress .container .skills .skill .val {
+    font-weight: bold;
+}
+.progress .container .skills .skill .val span:first-of-type {
+
+}
+.progress .container .skills .skill .val span:last-of-type {
+    float: right;
+}
+.progress .container .skills .skill .bar {
+    height: 10px;
+    background: blue;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.progress .container .skills .skill:nth-of-type(2) .bar::after {
+    content: "";
+    position:absolute ;
+    height: 10px;
+    right: 0;
+    width: 10%;
+    background-color: #dee2e6;
+
+}
+.progress .container .skills:first-of-type .skill:nth-of-type(3) .bar::after {
+    content: "";
+    position:absolute ;
+    height: 10px;
+    right: 0;
+    width: 25%;
+    background-color: #dee2e6;
+
+}
+.progress .container .skills:last-of-type .skill:nth-of-type(1) .bar::after {
+    content: "";
+    position:absolute ;
+    height: 10px;
+    right: 0;
+    width: 20%;
+    background-color: #dee2e6;
+
+}
+.progress .container .skills:last-of-type .skill:nth-of-type(3) .bar::after {
+    content: "";
+    position:absolute ;
+    height: 10px;
+    right: 0;
+    width: 45%;
+    background-color: #dee2e6;
+
+}
+.mark p {
+   display: none; 
+}
+
+
+.mark p:nth-of-type(1) {
+    width: 37px;
+    height: 3px;
+    background: #000000bf;
+    position: absolute;
+    right: 72px;
+    top: 40px;}
+.mark p:nth-of-type(2) {
+    width: 37px;
+    height: 3px;
+    background: #000000bf;
+    position: absolute;
+    right: 72px;
+    top: 30px;}
+.mark p:nth-of-type(3) {
+    width: 37px;
+    height: 3px;
+    background: #000000bf;
+    position: absolute;
+    right: 72px;
+    top: 20px;}
+
+@media (max-width: 1000px) {
+    nav .list {
+        position: absolute;
+opacity: 0; 
+   right: 1;
+   top: 55px;
+  }
+    nav .list ul li {
+        display: block;
+    }
+    .mark p {
+        display: block;
+    }
+    .mark:hover .list {
+        opacity: 1;
+        transition: 1s all;
+    }
+    header h1 {
+        font-size: 25;
+    }
+    header p:first-of-type {
+        font-size: 24px;
+        margin-top: 1;
+    }
+    header p:last-of-type {
+        font-size: 20px;
+    }
+    .col {
+        width: 100%;
+    }
+    .about .container > p {
+        width: 100%;
+    }
+    .sit .photo {
+        width: 90%;
+    }
+    .sit .content {
+        width: 100%;
+        text-align: start;
+        margin-top: 20px;
+    }
+    .progress .container .skills {
+        width: 100%;
+    }
+    .progress .container .skills:first-of-type {
+        margin: 0;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1160px) {
+    nav .list {
+        position: absolute;
+opacity: 0; 
+   right: 1;
+   top: 55px;
+  }
+    nav .list ul li {
+        display: block;
+    }
+    .mark p {
+        display: block;
+    }
+    .mark:hover .list {
+        opacity: 1;
+        transition: 1s all;
+    }
+    header h1 {
+        font-size: 25;
+    }
+    header p:first-of-type {
+        font-size: 24px;
+        margin-top: 1;
+    }
+    header p:last-of-type {
+        font-size: 20px;
+    }
+    .col {
+        width: 40%;
+        margin: 20 10;
+    }
+    .about .container > p {
+        width: 100%;
+    }
+    .sit .photo {
+        width: 90%;
+    }
+    .sit .content {
+        width: 100%;
+        text-align: start;
+        margin-top: 20px;
+    }
+    .progress .container .skills {
+        width: 100%;
+    }
+    .progress .container .skills:first-of-type {
+        margin: 0;
+    }
+}
